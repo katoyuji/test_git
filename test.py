@@ -23,7 +23,7 @@ for row in rows:
         a = activites[i]
         while j<len(activites):
             b = activites[j]
-            if (a=="E113" and b=="E114") or (b=="E113" and a=="E114"):
+            if (a=="E114" and b=="E115") or (b=="E115" and a=="E114"):
                 conf += 1
             j += 1
         i += 1
